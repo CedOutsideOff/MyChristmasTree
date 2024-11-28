@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Décore ton Sapin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+  
+    <div class="sidebar">
+      <h2>Décorations</h2>
+      <div class="item boule rouge" draggable="true" id="boule1"></div>
+      <div class="item boule verte" draggable="true" id="boule2"></div>
+      <div class="item boule bleue" draggable="true" id="boule3"></div>
+      <div class="item boule jaune" draggable="true" id="boule4"></div>
+      <div class="item étoile" draggable="true" id="étoile"></div>
+      <div class="item guirlande orange" draggable="true" id="guirlande1"></div>
+      <div class="item guirlande rouge" draggable="true" id="guirlande2"></div>
+      <div class="item guirlande bleue" draggable="true" id="guirlande3"></div>
+      <div class="item sucre-d-orge" draggable="true" id="sucre-d-orge"></div>
+      <button id="undo-button">↺ Annuler</button>
+      <button id="redo-button">↻ Rétablir</button>
+      <button id="music-button" class="round-button">🎵</button>
+    </div>
+
+
+    <div class="tree-container" id="tree-container">
+      <img src="sapin.png" alt="Sapin de Noël" id="tree-background">
+      <div id="tree"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
